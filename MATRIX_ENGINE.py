@@ -166,7 +166,7 @@ while a:
                 print("INVALID CHOICE.")
                 
         elif choice == 8:
-            mat_choice = input("WHICH MATRIX? (A/B): ").strip().upper()
+            mat_choice = input("WHICH MATRIX?(A/B): ").strip().upper()
             if mat_choice == 'A':
                 print("\nEIGEN VECTORS OF A:\n", compute_eigen_vector(mat1))
             elif mat_choice == 'B':
